@@ -1,0 +1,372 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------------------------------------------- */
+
+p {
+  line-height: 2;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.font-border {
+  font-weight: bold;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-middle {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.block-center {
+  margin: 0 auto;
+}
+
+.algin-center {
+  vertical-align: middle;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-text-font-size-cn {
+  font-size: 32px;
+}
+
+.header-text-font-size-en {
+  font-size: 24px;
+}
+
+.subtitle-font-size {
+  font-size: 24px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-primary {
+  background: #415165 0% 0% no-repeat padding-box;
+}
+
+.line {
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+}
+
+.border-line-black-1 {
+  border-bottom: 1px solid #000;
+}
+
+.border-line-black-2 {
+  border-bottom: 2px solid #000;
+}
+
+.border-line-white {
+  border-bottom: 1px solid #fff;
+}
+
+.border-line-red {
+  border-bottom: 2px solid red;
+}
+
+.border-left-black-1 {
+  border-left: 1px solid red;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+body {
+  text-align: center;
+  font-family: adobe-clean, sans-serif;
+}
+
+.page {
+  width: 800px;
+}
+
+header {
+  width: 800px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 80px;
+}
+
+.photo {
+  padding-top: 2rem;
+  /* padding-bottom: 2rem; */
+}
+
+.photo img {
+  width: 324px;
+  height: 324px;
+}
+
+main {
+  width: 800px;
+}
+
+.profile {
+  margin-bottom: 3rem;
+}
+
+.skills {
+  padding: 1rem;
+}
+
+.skills_header {
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.skills_content {
+  /* padding-top: 1.5rem; */
+  padding-left: 2rem;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+  border-left: 1px solid #fff;
+}
+
+.skills_content li {
+  padding-bottom: 1rem;
+}
+
+.work-experience_content {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-left: 1rem;
+}
+
+.work-experience_description {
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.work-experience_list li {
+  padding-bottom: 1rem;
+}
+
+footer {
+  top: 2642px;
+  left: 0px;
+  width: 100vw;
+  /* height: 401px; */
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #fff;
+}
+
+.footer_header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+
+  border-bottom: 1px solid #fff;
+}
+
+.footer_header h2 {
+  font-size: 32px;
+}
+
+.footer_header span {
+  font-size: 24px;
+  font-family: SF Pro Text;
+}
+
+.footer_footer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_content {
+  margin: 0.5rem;
+}
+
+.footer_content li {
+  margin: 0.5rem;
+}
+
+.footer_icon {
+  margin: 0.5rem;
+}
+
+.footer_icon img {
+  width: 48px;
+  height: 48px;
+}
