@@ -130,6 +130,14 @@ table {
 
 /* ---------------------------------------------- */
 
+html {
+  line-height: 1;
+}
+
+body {
+  font-family: adobe-clean, sans-serif;
+}
+
 p {
   line-height: 2;
 }
@@ -244,17 +252,11 @@ section {
   margin-bottom: 1rem;
 }
 
-body {
-  text-align: center;
-  font-family: adobe-clean, sans-serif;
-}
-
-.page {
-  width: 800px;
+.container {
+  width: 1200px;
 }
 
 header {
-  width: 800px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -274,7 +276,6 @@ header h1 {
 }
 
 main {
-  width: 800px;
 }
 
 .profile {
@@ -322,12 +323,9 @@ main {
 }
 
 footer {
-  top: 2642px;
-  left: 0px;
-  width: 100vw;
+  /* top: 2642px; */
   /* height: 401px; */
   background: #415165 0% 0% no-repeat padding-box;
-  opacity: 1;
   color: #fff;
 }
 
