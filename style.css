@@ -143,7 +143,7 @@ p {
 }
 
 section {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .font-border {
@@ -199,6 +199,30 @@ section {
   font-size: 20px;
 }
 
+.line-height-llg {
+  line-height: 95px;
+}
+
+.line-height-xlg {
+  line-height: 48px;
+}
+
+.line-height-lg {
+  line-height: 45px;
+}
+
+.line-height-md {
+  line-height: 36px;
+}
+
+.line-height-sm {
+  line-height: 30px;
+}
+
+.line-height-ssm {
+  line-height: 29px;
+}
+
 .text-red {
   color: red;
 }
@@ -212,7 +236,7 @@ section {
 }
 
 .line {
-  margin: 0.5rem 0 0.5rem 0;
+  /* margin: 0.5rem 0 0.5rem 0; */
   width: 100%;
 }
 
@@ -252,13 +276,21 @@ section {
   margin-bottom: 1rem;
 }
 
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 .container {
   width: 1200px;
 }
 
 header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+.header_content {
+  /* line-height: 95px; */
 }
 
 header h1 {
@@ -266,7 +298,8 @@ header h1 {
 }
 
 .photo {
-  padding-top: 2rem;
+  padding-top: 48px;
+  padding-bottom: 48px;
   /* padding-bottom: 2rem; */
 }
 
@@ -282,16 +315,46 @@ main {
   margin-bottom: 3rem;
 }
 
+.profile_header {
+  margin-bottom: 8px;
+}
+
+.profile_header-text-cn {
+  line-height: 48px;
+}
+
+.profile_header-text-en {
+  line-height: 29px;
+}
+
+.profile_first-content {
+  margin-top: 16px;
+}
+
+.education_content {
+  margin-top: 12px;
+  margin-bottom: 60px;
+}
+
+.education_text {
+  padding: 12px 0 12px 0;
+}
+
 .skills {
-  padding: 1rem;
+  padding-bottom: 54px;
+  margin-bottom: 72px;
+}
+
+.skills_line {
+  width: 80%;
 }
 
 .skills_header {
   width: 200px;
   margin: 0 auto;
   padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 24px;
+  padding-bottom: 12px;
 }
 
 .skills_content {
@@ -299,27 +362,50 @@ main {
   padding-left: 2rem;
   width: 200px;
   margin: 0 auto;
-  margin-top: 2rem;
-  /* margin-bottom: 2rem; */
+  margin-top: 36px;
   border-left: 1px solid #fff;
 }
 
 .skills_content li {
-  padding-bottom: 1rem;
+  padding-bottom: 20px;
+}
+
+.work-experience {
+  margin-bottom: 72px;
+}
+
+.work-experience_header {
+  margin-bottom: 8px;
 }
 
 .work-experience_content {
+  margin-top: 16px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-left: 1rem;
 }
 
+.school-icon {
+  margin-top: 8px;
+  margin-bottom: 8.15px;
+}
+
 .work-experience_description {
-  margin-top: 0.5rem;
   width: 70%;
 }
 
+.work-experience_list {
+  margin-top: 32px;
+}
+
 .work-experience_list li {
-  padding-bottom: 1rem;
+  padding-bottom: 32px;
+}
+
+.tree-icon {
+  margin: 8px 0 8px 0;
+}
+
+.work-experience_footer {
 }
 
 footer {
@@ -330,8 +416,8 @@ footer {
 }
 
 .footer_header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 24px;
+  padding-bottom: 8px;
   width: 80%;
 
   border-bottom: 1px solid #fff;
@@ -347,21 +433,24 @@ footer {
 }
 
 .footer_footer {
+  padding-bottom: 48px;
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
 .footer_content {
-  margin: 0.5rem;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  /* margin: 0.5rem; */
 }
 
 .footer_content li {
-  margin: 0.5rem;
+  margin-bottom: 16px;
 }
 
 .footer_icon {
-  margin: 0.5rem;
+  margin-right: 24px;
 }
 
 .footer_icon img {
